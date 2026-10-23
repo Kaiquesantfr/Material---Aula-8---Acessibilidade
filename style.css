@@ -1,3 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
 /* Estilos gerais */
 body {
     font-family: Arial, sans-serif;
@@ -9,9 +17,8 @@ body {
 
 /* Cabeçalho */
 header {
-    background-color: chartreuse;
-
-    text-align: center;
+    width: 100%;
+    background-color: rgb(127, 255, 0);
     padding: 20px;
 }
 
