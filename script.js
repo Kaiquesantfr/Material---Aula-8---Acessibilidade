@@ -19,8 +19,9 @@ function diminuirFonte() {
         if(tamanhoMain > 800){
             tamanhoMain -= 50;
             main.style.maxWidth = tamanhoMain + "px";
-        }
-        
-    
+        }   
 }
 
+function alternarContraste() {
+    document.body.classList.toggle("alto-contraste");
+}
